@@ -2,14 +2,13 @@
 #include "lib.h"
 using namespace std;
 
-int main(){
-  int d=2 , i=0 , n ;
-    cin>> d ;
+int main() {
+    int d ;
+    cin >> d ;
     float num [d] ;
-    for (i=0 ;i<d ; i++) {
-        cin >> n ;
+    for (int i=0 ; i< d ; i++){
+        cin >> num[i] ;
     }
-    float x = array( d , num ) ;
-    cout << x << endl;
-  return 0;
+    cout << maxArray(num , d) << endl;
+    return 0;
 }
