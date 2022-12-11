@@ -3,15 +3,15 @@
 //
 #include "lib.h"
 
-float array (int d , float num[d]) {
-    int i=1;
+float maxArray (float num [] , int d ) {
+    int i=0 ;
     while (i < d) {
         if (num [0] > num [i]) {
             i++ ;
         }
         else {
-            num[0]=num[i] ;
-            i++ ;
+            num[0] = num[i];
+            i++;
         }
     }
     return num [0] ;
