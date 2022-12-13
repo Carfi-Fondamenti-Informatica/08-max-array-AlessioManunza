@@ -9,7 +9,6 @@ int main() {
     for (int i=0 ; i< d ; i++){
         cin >> num[i] ;
     }
-    float m=maxArray (num , d)
-    cout << m << endl;
+    cout << maxArray(num , d) << endl;
     return 0;
 }
